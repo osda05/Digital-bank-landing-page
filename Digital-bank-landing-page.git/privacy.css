@@ -1,0 +1,70 @@
+body {
+  font-family: 'Public Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.privacy-container {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 40px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+h1 {
+  font-size: 36px;
+  color: hsl(233, 26%, 24%);
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 22px;
+  color: hsl(233, 26%, 24%);
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+p {
+  line-height: 1.7;
+  margin-bottom: 20px;
+  color: hsl(233, 8%, 45%);
+}
+
+ul {
+  margin-left: 20px;
+  padding-left: 10px;
+  color: hsl(233, 8%, 45%);
+}
+
+.last-updated {
+  margin-top: 40px;
+  font-style: italic;
+  font-size: 14px;
+  color: hsl(233, 8%, 55%);
+}
+
+.back-button {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.back-button button {
+  background: linear-gradient(30deg, hsl(192, 69%, 51%), hsl(136, 64%, 51%));
+  color: white;
+  font-weight: bold;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.back-button button:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
